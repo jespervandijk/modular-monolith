@@ -1,6 +1,6 @@
 namespace AcademicManagement.Application.Exceptions;
 
-public class EntityNotFoundException : InvalidOperationException
+public class EntityNotFoundException : Exception
 {
     public EntityNotFoundException(string entityName, object entityId)
         : base($"{entityName} with ID '{entityId}' not found")
