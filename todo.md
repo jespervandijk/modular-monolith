@@ -1,0 +1,48 @@
+- AcademicManagement module:
+
+  - Anonymous use cases:
+    - Create President Account (IMPLEMENTED)
+  - President use cases:
+    - Update President Account (IMPLEMENTED)
+    - Create University (IMPLEMENTED)
+    - Update University (IMPLEMENTED)
+    - Archive University (IMPLEMENTED)
+    - Create Department (IMPLEMENTED)
+    - Update Department (IMPLEMENTED)
+    - Archive Department (IMPLEMENTED)
+    - Create Professor (IMPLEMENTED)
+    - Update Professor (IMPLEMENTED)
+    - Assign Professor to Department (as normal Professor or as Head of Department) (IMPLEMENTED)
+  - Professor use cases (As head of department for their own department):
+    - Create Course (IMPLEMENTED)
+    - Archive Course (IMPLEMENTED)
+    - AssignProfessorToCourse (as normal professor or course owner) (IMPLEMENTED)
+    - Update Course (IMPLEMENTED)
+    - RemoveProfessorFromCourse (IMPLEMENTED)
+  - Professor use cases (As Course owner for their own courses):
+    - Update course details (IMPLEMENTED)
+    - CreateSection (INIMPLEMENTED)
+    - AssignSectionProfessor (IMPLEMENTED)
+  - Professor use cases (as only professor of a section of a course):
+    - AddAssignment (INIMPLEMENTED)
+    - AddExam (INIMPLEMENTED)
+    - UpdateSection (INIMPLEMENTED)
+    - AddExamResult
+    - AddAssignmentResult
+  - President and Professor use cases:
+    - GetCourses (IMPLEMENTED)
+
+- OfficalAcademicRegistration module:
+
+  - Register University
+  - Show Universities
+  - Register Student
+  - Create Student Join University Request
+  - Approve Student Join University Request
+
+- StudentEnrollment module:
+  - Student use cases:
+    - EnrollInCourse
+    - SubmitAssignment
+    - ViewGrades
+    - WithdrawFromCourse
